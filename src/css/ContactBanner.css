@@ -1,0 +1,21 @@
+.contact-banner {
+    padding: 132px 0 116px;
+    background: linear-gradient(70.98deg, #101820 13.01%, #04388E 56.51%, #6283FF 100%);
+}
+.top-link-bar {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.pagelink {
+    color: #6283FF;
+}
+.contact-banner h1 {
+    text-align: center;
+}
+.contact-banner .hero-text {
+    text-align: center;
+}

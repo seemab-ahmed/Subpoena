@@ -1,0 +1,80 @@
+.step-tittle {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Book Antiqua';
+    color: #1B1B1B;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+.step-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: top;
+}
+.step-content {
+    max-width: 860px;
+}
+.read-btn {
+    font-size: 16px;
+    font-family: 'Book Antiqua';
+    color: #6283FF;
+    line-height: 1.2;
+    margin-top: 10px;
+    display: block;
+}
+.step-icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    z-index: 3;
+    background-color: #fff;
+}
+.step-icon::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 3px;
+    background-color: #ECECF4;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+.step-row:last-of-type .step-icon::after {
+    display: none;
+}
+.step-title {
+    font-size: 28px;
+    color: #1B1B1B;
+    font-weight: 700;
+    font-family: 'Book Antiqua';
+}
+@media screen and (max-width:1200px) {
+    .step-content {
+        max-width: 88%;
+    }
+    .step-icon::after {
+        height: 156px;
+        bottom: -152px;
+        z-index: -1;
+    }
+    .step-title {
+        font-size: 24px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .step-icon::after {
+        display: none;
+    }
+    .step-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .step-content {
+        max-width: 100%;
+    }
+    
+}

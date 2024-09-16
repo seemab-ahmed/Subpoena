@@ -1,0 +1,23 @@
+.footer {
+    background-color: #1B1B1B;
+    padding: 60px 0;
+}
+.footer-logo {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 28px;
+    line-height: 1.7;
+    font-family: 'Book Antiqua';
+    font-weight: 700;
+    text-align: center;
+}
+.copyright-text {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #fff;
+}
