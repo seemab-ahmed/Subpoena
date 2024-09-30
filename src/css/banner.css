@@ -2,6 +2,7 @@
     background: url(../assets/banner.png) no-repeat center;
     background-size: cover;
     padding: 183px 0 65px;
+    overflow: hidden;
 }
 .banner-inner {
     max-width: 460px;

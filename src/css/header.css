@@ -1,11 +1,12 @@
 .header {
     background: #1b1b1be5;
     padding: 17px 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
     left: 0;
     right: 0;
     z-index: 10;
+    transition: all .5s ease-in-out;
 }
 .header .container {
     display: flex;

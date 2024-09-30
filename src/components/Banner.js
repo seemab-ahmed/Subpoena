@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import '../css/banner.css';
-function Banner() {
+import 'aos/dist/aos.css';
+function Banner() { 
   return (
     <section className="banner">
       <div className="container">
-        <div className="banner-inner">
+        <div className="banner-inner" data-aos="fade-right">
           <h1>The Subpoena Service</h1>
           <span className="tagline">Modern Subpoena Solutions</span>
           <p className="hero-text">
@@ -13,10 +15,10 @@ function Banner() {
             technological solution to deliver the most efficient, dependable
             support for all your subpoena needs.
           </p>
-          <span className="hero-btm-line">Call us at <a href="/">(000) 555-0000</a> at any time for assistance.</span>
-          <a href='/' className="primary-btn btn-blue">Contact Us</a>
+          <span className="hero-btm-line">Call us at <a href="tel:408889-6007"> (408) 889-6007</a> at any time for assistance.</span>
+          <Link to='/contact' className="primary-btn btn-blue">Contact Us</Link>
         </div>
-        <span className="banner-btm-text">Specificity. Particularity. Results.</span>
+        <span className="banner-btm-text" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Specificity. Particularity. Results.</span>
       </div>
     </section>
   );

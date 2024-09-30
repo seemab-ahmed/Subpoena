@@ -1,15 +1,16 @@
 import React from "react";
 import '../css/full-service.css';
 import serviceImage from '../assets/service-img.png'; 
+import 'aos/dist/aos.css';
 
 function FullService() {
   return (
     <section className="service">
       <div className="container">
-        <div className="service-img-wrapper">
+        <div className="service-img-wrapper" data-aos="fade-right">
           <img src={serviceImage} alt="service-img" />
         </div>
-        <div className="service-content">
+        <div className="service-content"  data-aos="fade-left">
           <h2 className="secondry-heading">Our Full-Service Guarantee</h2>
           <p className="default-text">
             We are so confident in our ability to prepare and effect service of

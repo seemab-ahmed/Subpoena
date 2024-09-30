@@ -26,7 +26,7 @@ img {
   color: #6283FF;
   padding: 10px 20px;
   font-family: 'Book Antiqua';
-  line-height: 1.3;
+  line-height: 1.1;
   font-size: 16px;
   font-weight: 700;
   border-radius: 25px;
@@ -34,10 +34,21 @@ img {
   height: 39px;
   display: inline-block;
   text-align: center;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out ;
+}
+.primary-btn:hover {
+  color: #fff;
+  background: #6283FF;
 }
 .primary-btn.btn-blue {
   color: #fff;
   background: #6283FF;
+}
+.primary-btn.btn-blue:hover {
+  background: #fff;
+  color: #6283FF;
+  border: 1px solid #6283FF;
 }
 .secondry-heading {
   font-size: 36px;
@@ -47,6 +58,9 @@ img {
   margin-bottom: 20px;
   line-height: 1.3;
   text-align: center;
+}
+.secondry-heading.white {
+  color: #fff;
 }
 .default-text {
   font-size: 16px;
@@ -75,7 +89,7 @@ h1 {
 }
 @media screen and (max-width:768px) {
   .primary-btn {
-    font-size: 15px;
+    font-size: 14px;
     width: 115px;
     height: 37px;
   }

@@ -4,7 +4,7 @@ import "../css/TestimonialCard.css";
 
 const TestimonialCard = ({ para, firstName, lastName, companyName }) => {
   return (
-    <div className="testimonial-card">
+    <div className="testimonial-card" data-aos="flip-left">
       <p className="testi-para">
       “{para}”
       </p>

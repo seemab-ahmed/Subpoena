@@ -7,9 +7,9 @@
     width: 100%;
     background-color: #ECECF4;
     border-radius: 25px;
-    padding: 20px;
+    padding: 20px 40px 20px 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.199);
-    align-items: flex-start;
+    align-items: center;
     gap: 40px;
     margin-top: -125px;
 }  
@@ -50,7 +50,10 @@
 }
 .form-group {
     margin-bottom: 40px;
-}  
+} 
+.form-group.is-last {
+    margin-bottom: 0;
+} 
 .form-group.top {
     display: flex;
     gap: 40px;
@@ -109,7 +112,11 @@
         margin-bottom: 40px;
     }
     .phone-info a, .email-info a {
+        font-size: 12px;
+    }
+    .contact-details h4 {
         font-size: 14px;
+        margin: 8px 0 4px;
     }
     .contact-info {
         padding: 25px;

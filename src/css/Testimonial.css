@@ -1,6 +1,11 @@
 .testimonial {
     padding: 60px 0 120px;
-    background: linear-gradient(262.79deg, #FFFFFF 0%, #D7D9FF 100%);
+    background: linear-gradient(83.53deg, #1B1B1B 0%, #04388E 99.75%);
+    /* background: linear-gradient(262.79deg, #FFFFFF 0%, #D7D9FF 100%); */
+    overflow: hidden;
+}
+.testimonial-slider {
+    margin-inline: -10px;
 }
 .testimonial .slick-dots {
     bottom: -60px;
@@ -9,7 +14,7 @@
     width: 24px;
     height: 24px;
     padding: 0px;
-    background: #1B1B1B;
+    background: #fff;
     border-radius: 50%;
 }
 .testimonial .slick-dots li button:before {
@@ -18,12 +23,12 @@
     width: 24px;
     height: 24px;
     opacity: 0;
-    color: white;
+    color: #1B1B1B;
     transition: all 0.5s ease-in-out;
 }
 .testimonial .slick-dots li.slick-active button:before {
     opacity: 1;
-    color: white;
+    color: #1B1B1B;
     transition: all 0.5s ease-in-out;
 }
 @media screen and (max-width:768px) {

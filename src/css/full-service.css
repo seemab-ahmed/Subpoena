@@ -1,6 +1,7 @@
 .service {
     background-color: #ECECF4;
     padding: 60px 0;
+    overflow: hidden;
 }
 .service .container {
     display: flex;

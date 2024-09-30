@@ -27,7 +27,6 @@ function Testimonial() {
     },
   ];
 
-  // Slider settings for displaying 2 slides at a time
   const settings = {
     dots: true, 
     infinite: true, 
@@ -48,11 +47,10 @@ function Testimonial() {
       },
     ],
   };
-
   return (
     <section className="testimonial">
       <div className="container">
-        <h2 className="secondry-heading">Testimonials</h2>
+        <h2 className="secondry-heading white" data-aos="fade-in">Testimonials</h2>
         <div className="testimonial-slider">
           <Slider {...settings}>
             {testimonials.map((testimonial, index) => (

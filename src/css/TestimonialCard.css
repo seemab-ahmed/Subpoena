@@ -1,5 +1,7 @@
 .testimonial-card {
-    background-color: #D7D9FF;
+    /* background-color: #D7D9FF; */
+    background-color: #04388E;
+    color: #fff;
     padding: 20px;
     margin: 0 10px;
 }

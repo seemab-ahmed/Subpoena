@@ -7,7 +7,7 @@ function ContactForm() {
   return (
     <section className="contact-form">
       <div className="container">
-        <div className="form-box">
+        <div className="form-box" data-aos="fade-up">
           {/* Left side information */}
           <div className="contact-info">
             <p className="contact-para">
@@ -21,7 +21,7 @@ function ContactForm() {
                 </div>
                 <div>
                   <h4>Phone</h4>
-                  <a href="tel:(000) 555-0000">(000) 555-0000</a>
+                  <a href="tel:(408)889-6007">(408) 889-6007</a>
 
                 </div>
               </div>
@@ -41,16 +41,16 @@ function ContactForm() {
           <div className="contact-input-form">
             <form>
               <div className="form-group top">
-                <input type="text" id="fullName" placeholder="Full Name" />
-                <input type="text" id="phone" placeholder="Phone Number (optional)" />
+                <input type="text" id="fullName" name="FullName" placeholder="Full Name" />
+                <input type="text" id="phone" name="PhoneNo" placeholder="Phone Number (optional)" autoComplete="phone"/>
               </div>
               <div className="form-group">
-                <input type="email" id="email" placeholder="Email" />
+              <input type="email" id="email" name="Email" placeholder="Email" autoComplete="email" />
               </div>
               <div className="form-group">
-                <textarea id="message" placeholder="Message"></textarea>
+                <textarea id="message" name="Massage" placeholder="Message"></textarea>
               </div>
-              <div className="form-group">
+              <div className="form-group is-last">
                 <button type="submit" className="primary-btn btn-blue submit-btn">
                   Submit
                 </button>

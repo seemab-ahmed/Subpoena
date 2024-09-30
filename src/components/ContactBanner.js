@@ -1,17 +1,18 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import '../css/ContactBanner.css';
 function ContactBanner() {
   return (
     <section className="contact-banner">
       <div className="container">
         <div className="top-link-bar">
-          <a href="/" className="pagelink">
+          <Link to="/" className="pagelink">
             Home{" "}
-          </a>
+          </Link>
           <span className="current-page">/ Contact</span>
         </div>
-        <h1>Contact Us</h1>
-        <p className="hero-text">
+        <h1 data-aos="fade-up">Contact Us</h1>
+        <p className="hero-text" data-aos="fade-up">
           Whether you’d like to learn more about our services or schedule a
           demo, we’d love to hear from you!
         </p>
