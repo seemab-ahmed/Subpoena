@@ -7,10 +7,10 @@ function FullService() {
   return (
     <section className="service">
       <div className="container">
-        <div className="service-img-wrapper" data-aos="fade-right">
+        <div className="service-img-wrapper" data-aos="fade-right" data-aos-duration="800">
           <img src={serviceImage} alt="service-img" />
         </div>
-        <div className="service-content"  data-aos="fade-left">
+        <div className="service-content"  data-aos="fade-left" data-aos-duration="1800">
           <h2 className="secondry-heading">Our Full-Service Guarantee</h2>
           <p className="default-text">
             We are so confident in our ability to prepare and effect service of

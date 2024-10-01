@@ -16,7 +16,15 @@ function MakeEasy() {
       content:
         "Whether you submit your request to us through email, the contact form on our website, or our online portal, we will work with you to define the scope of your project and execute on your plan.",
       detailContent:
-        "We have extensive experience obtaining records from banks, law enforcement agencies, corporations, and closely-held family businesses. We specialize in acquiring records from novel and difficult sources and will work with you to determine what subpoenas you want and need to issue. No matter how large or small the project, we are happy to work with you to define the scope, create a clearly defined to-do list, and execute a mutually agreed upon plan.",
+        `Our team is here to help coordinate your project, whether it be subpoenas duces tecum or subpoenas 
+        testifcandum, or both! We are experienced in developing plans and strategies to obtain the records 
+        you need for discovery and due diligence as well as to coordinate calling
+        witnesses to depositions or evidentiary hearings.
+        We have extensive experience obtaining records from banks, law enforcement agencies,
+        corporations, and closely-held family businesses. We specialize in acquiring records
+        from novel and difficult sources and will work with you to determine what subpoenas
+        you want and need to issue. No matter how large or small the project, we are happy to
+        work with you to define the scope, create a clearly defined to-do list, and execute a mutually agreed upon plan we propose.`,
     },
     {
       imgSrc: issueIcon,
@@ -38,9 +46,9 @@ function MakeEasy() {
       imgSrc: responsiveIcon,
       title: "Responsive Production",
       content:
-        "As registered and duly licensed and bonded professional photocopiers, we are able to serve as deposition officer and hold responsive production from witnesses until the date of release. We follow-up with deponents, and are sensitive about the deadlines to seek remedy for failure of a deponent to comply. We understand the laws surrounding responsive production, and take them very seriously.",
+        "As registered and duly licensed and bonded professional photocopiers, we are able to serve as deposition officer and hold responsive production from witnesses until the date of release. We follow-up with deponents and are sensitive about the deadlines to seek remedy for failure of a deponent to comply. We understand the laws surrounding responsive production and take them very seriously.",
       detailContent:
-        "We understand the law. Where other deposition officers are laissez-faire about production, we take very seriously any objections, irrespective motion to quash, and will not produce responsive production until 1). Written agreement between the parties withdrawing the objections; 2) Order of the Court. By our vigilance in complying with the spirit of the law and its letter, you can be assured that The Subpoena Service will carefully protect your responsive production from evidentiary exclusion at hearing for inexperienced procedural bumble.",
+        "Where other deposition officers are laissez-faire about production, we take very seriously any objections, irrespective motion to quash, and will not produce responsive production until 1). Written agreement between the parties withdrawing the objections; 2) Order of the Court. By our vigilance in complying with the spirit of the law and its letter, you can be assured that The Subpoena Service will carefully protect your responsive production from evidentiary exclusion at hearing for inexperienced procedural bumble.",
     },
   ];
 

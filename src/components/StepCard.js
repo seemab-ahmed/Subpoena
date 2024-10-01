@@ -2,11 +2,6 @@ import React, { useState } from 'react';
 import "../css/StepCard.css";
 
 const StepCard = ({ imgSrc, title, content, detailContent }) => {
-  // const [isExpanded, setIsExpanded] = useState(false);
-
-  // const toggleContent = () => {
-  //   setIsExpanded(!isExpanded);
-  // };
   const [isExpanded, setIsExpanded] = useState(false);
   const toggleContent = () => {
     setIsExpanded(!isExpanded);
@@ -28,6 +23,7 @@ const StepCard = ({ imgSrc, title, content, detailContent }) => {
           {isExpanded ? 'Show less.' : 'Read more.'}
         </button>
       </div>
+      <div className="step-line"></div>
     </div>
   );
 };

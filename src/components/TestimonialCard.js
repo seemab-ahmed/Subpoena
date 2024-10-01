@@ -6,13 +6,14 @@ const TestimonialCard = ({ para, firstName, lastName, companyName }) => {
   return (
     <div className="testimonial-card" data-aos="flip-left">
       <p className="testi-para">
-      “{para}”
+        “{para}”
       </p>
       <div className="testimonial-name">
-        <span className="first-name">{firstName} </span>
-        <span className="last-name">{lastName}</span>
+        <span className="first-name">{firstName}</span>
+        {lastName && <span className="last-name">{lastName}</span>}
       </div>
-      <span className="testi-company-name">{companyName}</span>
+      {companyName && <span className="testi-company-name">{companyName}</span>}
+
     </div>
   );
 };

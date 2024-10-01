@@ -8,23 +8,23 @@ import "../css/Testimonial.css";
 function Testimonial() {
   const testimonials = [
     {
-      para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      firstName: "First Name",
-      lastName: "Last Name",
-      companyName: "Company Name",
+      para: "I trust Rob to get the job done where many others cannot. He is diligent, and will continue to follow up on productions and keep relevant deadlines in mind for you, so you can focus on other things in your practice.",
+      firstName: "Monica N",
+      // lastName: "Last Name",
+      // companyName: "Company Name",
     },
     {
-      para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      firstName: "First Name",
-      lastName: "Last Name",
-      companyName: "Company Name",
+      para: "I have used The Subpoena Service, and my experience was excellent. The company provides full service subpoena support services for both attorney’s and self-represented individuals. They communicated effectively each step of the way and handled the job in a fast and efficient manner.  I would highly recommend their service to anyone seeking a company seeking to issue and subpoena documents in your court matter.",
+      firstName: "James Chau, PC",
+      // lastName: "Last Name",
+      companyName: "Law Office",
     },
-    {
-      para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      firstName: "First Name",
-      lastName: "Last Name",
-      companyName: "Company Name",
-    },
+    // {
+    //   para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    //   firstName: "First Name",
+    //   lastName: "Last Name",
+    //   companyName: "Company Name",
+    // },
   ];
 
   const settings = {
@@ -58,8 +58,8 @@ function Testimonial() {
                 key={index}
                 para={testimonial.para}
                 firstName={testimonial.firstName}
-                lastName={testimonial.lastName}
-                companyName={testimonial.companyName}
+                lastName={testimonial.lastName ? testimonial.lastName : null}
+                companyName={testimonial.companyName ? testimonial.companyName : null}
               />
             ))}
           </Slider>
