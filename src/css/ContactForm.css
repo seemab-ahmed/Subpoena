@@ -14,7 +14,7 @@
     margin-top: -125px;
 }  
 .contact-info {
-    max-width: 360px;
+    max-width: 390px;
     width: 100%;
     background-color: #fff;
     border-radius: 25px;
@@ -32,12 +32,16 @@
     align-items: end;
     gap: 10px;
     justify-content: left;
+    flex-wrap: wrap;
 }
 .phone-info a, .email-info a {
     color: #1B1B1B;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
+}
+.email-text {
+    max-width: 270px;
 }
 .contact-details h4 {
     font-size: 16px;
@@ -63,14 +67,20 @@
 .form-group textarea {
     width: 100%;
     padding: 10px;
-    color: #999999;
+    color: #333;
     background: transparent;
     border: none;
     border-bottom: 1px solid #999999;
     font-size: 14px;
     transition: all 0.5s ease-in-out;
     height: 40px;
-  }
+    font-family: "Open Sans", sans-serif;
+} 
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #999999;
+    font-size: 14px;
+} 
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
@@ -81,6 +91,19 @@
 .form-group textarea {
     max-height: 100px;
     resize: none;
+}
+.form-group textarea::-webkit-scrollbar {
+    width: 2px; 
+}
+.form-group textarea::-webkit-scrollbar-thumb {
+    background-color: #999999c4; 
+    border-radius: 5px; 
+}
+.form-group textarea::-webkit-scrollbar-thumb:hover {
+    background-color: #55555574;
+}
+.form-group textarea::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
 }
 .submit-btn {
     border: none;
@@ -97,7 +120,7 @@
 @media screen and (max-width:992px) {
     .form-group.top {
         flex-direction: column;
-        gap: 0px;
+        gap: 40px;
     }
 }
 @media screen and (max-width:768px) {

@@ -31,7 +31,7 @@ function ContactForm() {
                 </div>
                 <div className="email-text">
                   <h4>Email</h4>
-                  <a href="mailto:email@thesubpoenaservice.com">email@thesubpoenaservice.com</a>
+                  <a href="mailto:operations@thesubpoenaservice.com">operations@thesubpoenaservice.com</a>
                 </div>
               </div>
             </div>

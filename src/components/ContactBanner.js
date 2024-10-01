@@ -13,8 +13,7 @@ function ContactBanner() {
         </div>
         <h1 data-aos="fade-up">Contact Us</h1>
         <p className="hero-text" data-aos="fade-up">
-          Whether you’d like to learn more about our services or schedule a
-          demo, we’d love to hear from you!
+        If you’d like to learn more about our services, we’d love to hear from you!
         </p>
       </div>
     </section>
