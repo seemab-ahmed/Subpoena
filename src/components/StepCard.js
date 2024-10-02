@@ -15,14 +15,16 @@ const StepCard = ({ imgSrc, title, content, detailContent, detailContent2 }) => 
       <div className="step-content">
         <h3 className="step-title">{title}</h3>
         <p className="default-text">{content}</p>
-        <p className={`default-text detail-text ${isExpanded ? 'expanded' : 'collapsed'}`}>
+        <div className={`detail-text ${isExpanded ? 'expanded' : 'collapsed'}`}>
+        <p className={`default-text `}>
           {detailContent}
         </p>
         {detailContent2 &&
-          <p className={`default-text detail-text ${isExpanded ? 'expanded' : 'collapsed'}`}>
+          <p className={`default-text `}>
           {detailContent2}
         </p>
         }
+        </div>
         {/* {isExpanded && <p className="default-text detail-text">{detailContent}</p>} */}
         <button onClick={toggleContent} className="read-btn">
           {isExpanded ? 'Show less.' : 'Read more.'}

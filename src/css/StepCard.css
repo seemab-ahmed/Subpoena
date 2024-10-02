@@ -47,10 +47,6 @@
     outline: none;
     cursor: pointer;
 }
-.detail-text {
-    transition: all 0.5s ease-in-out;
-    margin-top: 10px;
-}
 .step-icon {
     position: relative;
     width: 60px;
@@ -59,6 +55,7 @@
     background-color: #fff;
 }
 .detail-text {
+    transition: all 0.5s ease-in-out;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.8s ease-in-out, opacity 0.8s ease-in-out;
@@ -74,7 +71,9 @@
     max-height: 0;
     opacity: 0;
   }
-
+  .detail-text p {
+    margin-top: 10px;
+  }
 .step-title {
     font-size: 28px;
     color: #1B1B1B;
