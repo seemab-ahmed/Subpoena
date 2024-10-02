@@ -19,7 +19,8 @@ function App() {
     });
   }, []);
   return (
-    <Router>
+    <div className="main-wrapper">
+      <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -27,6 +28,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </div>
   );
 }
 

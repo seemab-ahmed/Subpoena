@@ -18,13 +18,7 @@ function Testimonial() {
       firstName: "Law Office James Chau, PC",
       // lastName: "Last Name",
       // companyName: "Law Office",
-    },
-    // {
-    //   para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    //   firstName: "First Name",
-    //   lastName: "Last Name",
-    //   companyName: "Company Name",
-    // },
+    }
   ];
 
   const settings = {

@@ -19,8 +19,8 @@ function MakeEasy() {
         `Our team is here to help coordinate your project, whether it be subpoenas duces tecum or subpoenas 
         testifcandum, or both! We are experienced in developing plans and strategies to obtain the records 
         you need for discovery and due diligence as well as to coordinate calling
-        witnesses to depositions or evidentiary hearings.
-        We have extensive experience obtaining records from banks, law enforcement agencies,
+        witnesses to depositions or evidentiary hearings.`,
+      detailContent2: `We have extensive experience obtaining records from banks, law enforcement agencies,
         corporations, and closely-held family businesses. We specialize in acquiring records
         from novel and difficult sources and will work with you to determine what subpoenas
         you want and need to issue. No matter how large or small the project, we are happy to
@@ -80,6 +80,7 @@ function MakeEasy() {
               title={cardData.title}
               content={cardData.content}
               detailContent={cardData.detailContent}
+              detailContent2={cardData.detailContent2}
             />
           ))}
         </div>
